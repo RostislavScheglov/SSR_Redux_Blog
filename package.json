@@ -2,14 +2,29 @@
   "name": "dev-ops-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://RostislavScheglov.github.io/SSR_Redux_Blog",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy":"gh-pages -d build",
+    "export":"next build && next export"
   },
   "dependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "axios": "^0.21.1",
+    "gh-pages": "^3.1.0",
     "next": "10.0.6",
+    "next-redux-wrapper": "^6.0.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^4.1.5"
   }
 }
