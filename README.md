@@ -1,1 +1,1 @@
-https://ssr-redux-blog.vercel.app/  Working blog
+https://ssr-redux-blog.vercel.app/  Go to the blog :)
